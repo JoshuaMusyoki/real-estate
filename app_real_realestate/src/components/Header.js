@@ -1,7 +1,7 @@
-import React from "react";
+
 const Header =() =>{
     return(
-        <header className="App-header">
+        <header style={{position: 'fixed', top: 0, left: 0, width: '100%', padding: '1rem', backgroundColor: '#f0f0f0' }}>
             <h1>Donation Platform</h1>
             <nav>
                 <a href="/">Home</a>
@@ -13,3 +13,5 @@ const Header =() =>{
     );
 };
 export default Header;
+
+
