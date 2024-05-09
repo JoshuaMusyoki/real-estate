@@ -1,4 +1,5 @@
 import '././App.js'
+import '../src/App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import DonorsPage from './pages/DonorsPage';
