@@ -1,4 +1,4 @@
- // SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 // Import OpenZeppelin contracts
@@ -33,7 +33,7 @@ constructor(address initialOwner) ERC20("TemporaryShelterToken", "TST") ERC20Per
 
 
     // Function to list a new shelter option on the platform
-    function listShelter(
+    function addShelter(
         string memory name,
         uint256 availableUnits,
         uint256 pricePerUnit
@@ -70,7 +70,7 @@ constructor(address initialOwner) ERC20("TemporaryShelterToken", "TST") ERC20Per
         require(shelter.isActive, "Shelter is not active");
         require(tokensToDonate > 0, "Number of tokens to donate must be greater than 0");
         // Ensure the donor sends enough funds to cover the donation
-        require(msg.value >= tokensToDonate * shelter.pricePerUnit, "Insufficient funds");
+        // require(msg.value >= tokensToDonate * shelter.pricePerUnit, "Insufficient fund");
 
         // Mint tokens to the donor
         _mint(msg.sender, tokensToDonate);
