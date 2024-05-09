@@ -13,10 +13,10 @@ function PropertyOwners() {
         <input style={{border: 'solid 1px'}}/>
         <label>Is Available?</label>
         <div style={{display: 'flex', gap: '20px'}}>
-        <button style={{border: 'solid 1px gray', color: 'white', padding: '8px', backgroundColor: 'green', borderRadius: '8px'}} >Yes</button> <br />
-        <button style={{border: 'solid 1px gray', color: 'white', padding: '8px', backgroundColor: 'maroon', borderRadius: '8px'}} >No</button>
+        <button style={{border: 'solid 1px gray', color: 'white', width: '100px', padding: '8px', backgroundColor: 'green', borderRadius: '8px'}} >Yes</button> <br />
+        <button style={{border: 'solid 1px gray', color: 'white', width: '100px', padding: '8px', backgroundColor: 'maroon', borderRadius: '8px'}} >No</button>
         </div> <br />
-        <button type='submit' style={{border:'solid 1px gray', color: 'white', backgroundColor: 'green', padding: '8px', borderRadius: '8px' }}>Withdraw</button>
+        <button type='submit' style={{border:'solid 1px gray', color: 'white', width: '50%', alignSelf: 'center', backgroundColor: 'green', padding: '8px', borderRadius: '8px' }}>Withdraw</button>
       </form>
     </>
   )
