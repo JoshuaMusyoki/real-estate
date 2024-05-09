@@ -16,7 +16,7 @@ function PropertyOwners() {
         <button style={{border: 'solid 1px gray', color: 'white', padding: '8px', backgroundColor: 'green', borderRadius: '8px'}} >Yes</button> <br />
         <button style={{border: 'solid 1px gray', color: 'white', padding: '8px', backgroundColor: 'maroon', borderRadius: '8px'}} >No</button>
         </div> <br />
-        <button type='submit' style={{border:'solid 1px gray', color: 'white', backgroundColor: 'green', padding: '8px', borderRadius: '8px' }}>Submit</button>
+        <button type='submit' style={{border:'solid 1px gray', color: 'white', backgroundColor: 'green', padding: '8px', borderRadius: '8px' }}>Withdraw</button>
       </form>
     </>
   )
