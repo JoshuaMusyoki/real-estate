@@ -14,18 +14,18 @@ body {
     background-color: #fcfcfd;
   }
   
-  /*header, footer */
+  header, footer{
     /* Styles for header and footer */
-   /* padding: 1rem;
-    /*background-color: #f0f0f0; background color */
+    padding: 1rem;
+    background-color: #f0f0f0; /*background color */
+  }
   
-  
- /* header 
+  header {
     /* Additional styles for header  */
-    /*justify-content: space-between; Align header content */
+    justify-content: space-between; /* Align header content */
+  }
   
-  
-  /*footer */
+  footer {
     /* Additional styles for footer */
-   /* align-self: flex-end; Push footer to bottom */
-  
+    align-self: flex-end; /* Push footer to bottom */
+  }
