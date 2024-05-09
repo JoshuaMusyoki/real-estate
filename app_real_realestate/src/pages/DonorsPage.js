@@ -3,7 +3,7 @@ import React from 'react'
 function DonorsPage() {
   return (
     <>
-      <form style={{display: 'flex', flexDirection: 'column', marginTop: '12%', marginLeft: '15%', backgroundColor: '#f0f0f8', width: '70%', borderRadius: '8px', padding: '3%'}} >
+      <form style={{display: 'flex', flexDirection: 'column', marginTop: '5%', marginLeft: '15%', backgroundColor: '#f0f0f8', width: '70%', borderRadius: '8px', padding: '3%'}} >
         <p style={{fontSize: '32px', fontWeight: 'bold'}}>Please fill out the form to make a donation</p>
         <label>Shelter Name</label>
         <input style={{border: 'solid 1px'}}/>
